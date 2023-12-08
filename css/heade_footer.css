@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: shantellsans;
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/ShantellSans-Regular.ttf);
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background-image:url("../images/icons/ratHad.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    max-width: 460px;
+    max-height: 120px;    
+    padding-bottom: 20px; 
+}
+
+body{
+    font-family: "shantellsans", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header > .container{
+    padding: 60px 20px; 
+}
+
+header .container .menu a{
+    font-size: 1.15em; 
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+header .container .menu a:hover
+{
+    color: red;
+}
+
+header .container .menu{
+    padding-right: 270px;
+}
+
