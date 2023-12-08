@@ -8,4 +8,7 @@
         header .container{
             background-image:none;
         }
+        header .logo{
+            padding-bottom: 0;
+        }
 }
